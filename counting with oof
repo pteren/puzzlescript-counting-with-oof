@@ -1,0 +1,1366 @@
+title Counting with Oof
+author James Orendorff
+again_interval 0.05
+key_repeat_interval 0.09
+flickscreen 16x27
+run_rules_on_level_start
+
+========
+OBJECTS
+========
+
+(You play as a cyclops's math teacher.)
+(This is you)
+
+player
+blue yellow red brown
+.222.
+.111.
+10001
+.303.
+.3.3.
+
+(And this is your pupil, Oof the Cyclops)
+
+Oof1 (1-16 is Oof's head)
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+.....
+..0..
+..00.
+..100
+...10
+
+Oof2
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+.0000
+00000
+00000
+00003
+00232
+
+Oof3
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+00000
+00000
+00000
+32000
+33320
+
+Oof4
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+.....
+0..0.
+0.00.
+0001.
+001..
+
+Oof5
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+....0
+...00
+...00
+...00
+...00
+
+Oof6
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+00323
+02335
+03363
+03253
+00264
+
+Oof7
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+33230
+65333
+34623
+44532
+44620
+
+Oof8
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+00...
+000..
+000..
+000..
+000..
+
+Oof9
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+...00
+...00
+..000
+..000
+..000
+
+Oof10
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+00336
+00003
+00000
+00000
+03000
+
+Oof11
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+65330
+32000
+00000
+00000
+00003
+
+Oof12 (no regrets)
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+000..
+000..
+0000.
+0000.
+0000.
+
+Oof13
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+..004
+..100
+...10
+....1
+.000.
+
+Oof14
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+03344
+44400
+00001
+11110
+..000
+
+Oof15
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+44433
+00044
+11000
+00111
+0000.
+
+Oof16
+#b71c1c #880e4f #e57373 white black #067006 #25a127
+0400.
+4001.
+001..
+11...
+..000
+
+Oof17 (...and 17-51 is the rest of his body)
+#b71c1c #880e4f #593220 #6b4135
+.....
+.....
+...11
+..111
+..111
+
+Oof18
+#b71c1c #880e4f #593220 #6b4135
+....0
+...00
+..000
+10000
+10000
+
+Oof19
+#b71c1c #880e4f #593220 #6b4135
+00000
+00000
+00000
+0..01
+....0
+
+Oof20
+#b71c1c #880e4f #593220 #6b4135
+00000
+00000
+01000
+00000
+11000
+
+Oof21
+#b71c1c #880e4f #593220 #6b4135
+00000
+00000
+00001
+00000
+00001
+
+Oof22
+#b71c1c #880e4f #593220 #6b4135
+00000
+00000
+00000
+010..
+10...
+
+Oof23
+#b71c1c #880e4f #593220 #6b4135
+00...
+000..
+0000.
+00000
+.0000
+
+Oof24
+#b71c1c #880e4f #593220 #6b4135
+.....
+.....
+.11..
+1111.
+1111.
+
+Oof25
+#b71c1c #880e4f #593220 #6b4135
+..111
+..111
+...10
+...10
+..000
+
+Oof26
+#b71c1c #880e4f #593220 #6b4135
+0000.
+00001
+00011
+00011
+00001
+
+Oof27 (I am currently beginning to have regrets)
+#b71c1c #880e4f #593220 #6b4135
+....0
+....1
+11..0
+111..
+11113
+
+Oof28
+#b71c1c #880e4f #593220 #6b4135
+00000
+00000
+11100
+00000
+30000
+
+Oof29
+#b71c1c #880e4f #593220 #6b4135
+00000
+00000
+00011
+00000
+00000
+
+Oof30
+#b71c1c #880e4f #593220 #6b4135
+00...
+01...
+10..1
+0..11
+33111
+
+Oof31
+#b71c1c #880e4f #593220 #6b4135
+..000
+.1000
+11100
+11100
+11000
+
+Oof32
+#b71c1c #880e4f #593220 #6b4135
+0111.
+0111.
+001..
+001..
+0000.
+
+Oof33
+#b71c1c #880e4f #593220 #6b4135
+.1010
+.11.1
+....1
+.....
+.....
+
+Oof34
+#b71c1c #880e4f #593220 #6b4135
+01000
+01111
+11111
+.1111
+..111
+
+Oof35
+#b71c1c #880e4f #593220 #6b4135
+11113
+11132
+..132
+1..23
+12233
+
+Oof36
+#b71c1c #880e4f #593220 #6b4135
+33333
+33233
+32233
+32332
+22332
+
+Oof37
+#b71c1c #880e4f #593220 #6b4135
+33333
+32333
+32332
+33232
+33233
+
+Oof38
+#b71c1c #880e4f #593220 #6b4135
+33111
+33311
+3321.
+232..
+23322
+
+Oof39
+#b71c1c #880e4f #593220 #6b4135
+10001
+11111
+.1111
+11111
+1111.
+
+Oof40
+#b71c1c #880e4f #593220 #6b4135
+00101
+01.11
+11...
+.....
+.....
+
+Oof41
+#b71c1c #880e4f #593220 #6b4135
+..111
+...11
+.....
+.....
+....1
+
+Oof42
+#b71c1c #880e4f #593220 #6b4135
+111.2
+11122
+11001
+.1100
+10000
+
+Oof43
+#b71c1c #880e4f #593220 #6b4135
+23322
+33323
+0.223
+00...
+01...
+
+Oof44
+#b71c1c #880e4f #593220 #6b4135
+33323
+32323
+22322
+2...2
+....1
+
+Oof45
+#b71c1c #880e4f #593220 #6b4135
+22311
+32111
+01201
+00011
+00000
+
+Oof46
+#b71c1c #880e4f #593220 #6b4135
+1111.
+111..
+1....
+.....
+11...
+
+Oof47
+#b71c1c #880e4f #593220 #6b4135
+...00
+..101
+..110
+....1
+.....
+
+Oof48 (almost there...)
+#b71c1c #880e4f #593220 #6b4135
+00000
+00001
+0011.
+11...
+.....
+
+Oof49
+#b71c1c #880e4f #593220 #6b4135
+0....
+1....
+.....
+.....
+.....
+
+Oof50
+#b71c1c #880e4f #593220 #6b4135
+00000
+11000
+..110
+....1
+.....
+
+Oof51
+#b71c1c #880e4f #593220 #6b4135
+000..
+0101.
+0011.
+11...
+.....
+
+(Background)
+
+stone
+gray
+
+counting_floor
+gray lightgray #ddd
+12222
+10002
+10002
+10002
+11111
+
+floor1
+gray lightgray
+00100
+01100
+00100
+00100
+00100
+
+floor2
+gray lightgray
+01100
+10010
+00100
+01110
+00000
+
+floor3
+gray lightgray
+00000
+00111
+00010
+00001
+00110
+
+floor4
+gray lightgray
+00110
+01010
+01111
+00010
+00000
+
+floor5
+gray lightgray
+01110
+01000
+01100
+00010
+00100
+
+floor6
+gray lightgray
+00110
+01000
+01100
+01010
+00100
+
+floor7
+gray lightgray
+01111
+00001
+00010
+00100
+00000
+
+floor8
+gray lightgray
+00000
+00110
+01010
+00101
+00110
+
+
+floor9
+gray lightgray
+01110
+01010
+00110
+00010
+00010
+
+floor10
+gray lightgray
+00011
+10101
+10101
+10110
+00000
+
+boards_h
+brown darkbrown
+.....
+00011
+00000
+01100
+.....
+
+boards_v
+brown darkbrown
+.001.
+.001.
+.000.
+.100.
+.100.
+
+boards_o
+brown darkbrown
+.001.
+00011
+00000
+01100
+.100.
+
+floortemp
+transparent
+
+grass
+lightgreen green
+00000
+01000
+00001
+10000
+00010
+
+forest
+green lightgreen darkbrown
+00010
+02000
+00002
+00010
+21000
+
+sand
+lightbrown yellow
+01001
+00100
+10000
+00101
+01000
+
+(walls)
+
+tree
+green darkgreen
+.111.
+10001
+10001
+10001
+.111.
+
+sea
+blue lightblue
+00111
+00000
+11100
+00011
+11000
+
+cave_wall
+darkgray
+
+debris
+darkblue darkgray
+.0.00
+01010
+.0110
+0100.
+00.00
+
+boulder
+#444 #555
+.000.
+01100
+01000
+00000
+.000.
+
+boulder_u
+#444 #555
+.000.
+01100
+01000
+00000
+.000.
+
+boulder_d
+#444 #555
+.000.
+01100
+01000
+00000
+.000.
+
+boulder_l
+#444 #555
+.000.
+01100
+01000
+00000
+.000.
+
+boulder_r
+#444 #555
+.000.
+01100
+01000
+00000
+.000.
+
+crate
+darkbrown brown
+00000
+01101
+11011
+10110
+00000
+(counting objects)
+
+sheep
+white gray black
+..00.
+20000
+20001
+.101.
+.2.2.
+
+cheese
+yellow orange
+.000.
+.1000
+00100
+10001
+.111.
+
+cheese_u
+yellow orange
+..0..
+.000.
+.000.
+.100.
+..1..
+
+cheese_d
+yellow orange
+..0..
+.000.
+.000.
+.100.
+..1..
+
+cheese_l
+yellow orange
+.....
+.000.
+00000
+.110.
+.....
+
+cheese_r
+yellow orange
+.....
+.000.
+00000
+.011.
+.....
+
+shell
+pink white
+.11..
+1001.
+10101
+10001
+.111.
+
+(UI)
+
+backpack1
+brown black
+00000
+00000
+00000
+00011
+00010
+
+backpack2
+brown black
+00000
+00000
+00000
+11111
+00000
+
+backpack3
+brown black
+00...
+0000.
+0000.
+11000
+01000
+
+backpack4
+brown black
+00010
+00010
+00010
+00010
+00010
+
+backpack5
+brown
+
+backpack6
+brown black
+01000
+01000
+01000
+01000
+01000
+
+backpack7
+brown black
+00010
+00011
+00000
+00000
+00000
+
+backpack8
+brown black
+00000
+11111
+00000
+00000
+00000
+
+backpack9
+brown black
+01000
+11000
+00000
+00000
+00000
+
+purse1
+brown black
+...00
+.0000
+.0000
+00011
+00010
+
+purse2
+brown black
+00000
+00000
+00000
+11111
+00000
+
+purse3
+brown black
+00000
+00000
+00000
+11000
+01000
+
+purse4
+brown black
+00010
+00010
+00010
+00010
+00010
+
+purse5
+brown
+
+purse6
+brown black
+01000
+01000
+01000
+01000
+01000
+
+purse7
+brown black
+00010
+00011
+00000
+00000
+00000
+
+purse8
+brown black
+00000
+11111
+00000
+00000
+00000
+
+purse9
+brown black
+01000
+11000
+00000
+00000
+00000
+
+(NPC interaction)
+
+Oof_dialogue
+#0c0
+00000
+0...0
+0...0
+0...0
+00000
+
+Oof_dialogue2
+#0c0
+00000
+0...0
+0...0
+0...0
+00000
+
+speech_bubble1
+white gray
+....0
+...00
+...00
+..000
+00000
+
+speech_bubble2
+white gray
+0000.
+10100
+01000
+10100
+0000.
+
+(Counting counters)
+
+Victory
+transparent
+
+Counter0
+transparent
+
+Counter1
+transparent
+
+Counter2
+transparent
+
+Counter3
+transparent
+
+Counter4
+transparent
+
+Counter5
+transparent
+
+Counter6
+transparent
+
+Counter7
+transparent
+
+Counter8
+transparent
+
+Counter9
+transparent
+
+Counter10
+transparent
+
+background
+black
+
+=======
+LEGEND
+=======
+
+! = Counter0
+
+1 = Oof1 and stone
+2 = Oof5 and stone
+3 = Oof9 and stone
+4 = Oof13 and stone
+5 = Oof17 and stone
+6 = Oof25 and stone
+7 = Oof33 and stone
+8 = Oof41 and stone
+9 = Oof47 and stone
+
+o = Oof_dialogue and stone
+
+0 = background
+
+@ = player and stone
+
+# = cave_wall and stone
+% = debris and stone
+
+~ = sea and sand
+& = tree and grass
+^ = tree and forest
+
+- = boards_h
+| = boards_v
++ = boards_o
+. = stone
+; = floor1
+" = grass
+' = forest
+` = sand
+
+
+* = boulder and stone
+/ = crate and forest
+
+
+
+c = cheese and stone
+s = sheep and grass
+h = shell and sand
+(m = mushroom and forest)
+(f = fish and planks)
+(w = sandwich and sand)
+(d = donut and stone)
+
+[ = backpack5
+] = purse5
+($ = coin)
+
+cheese_ = cheese_u or cheese_d or cheese_l or cheese_r
+boulder_ = boulder_u or boulder_d or boulder_l or boulder_r
+
+boards = boards_h or boards_v or boards_o
+
+number_floor = floor1 or floor2 or floor3 or floor4 or floor5 or floor6 or floor7 or floor8 or floor9 or floor10
+floor = counting_floor or number_floor or stone or sand or grass or forest or boards or floortemp
+
+cyclops = Oof1 or Oof2 or Oof3 or Oof4 or Oof5 or Oof6 or Oof7 or Oof8 or Oof9 or Oof10 or Oof11 or Oof12 or Oof13 or Oof14 or Oof15 or Oof16 or Oof17 or Oof18 or Oof19 or Oof20 or Oof21 or Oof22 or Oof23 or Oof24 or Oof25 or Oof26 or Oof27 or Oof28 or Oof29 or Oof30 or Oof31 or Oof32 or Oof33 or Oof34 or Oof35 or Oof36 or Oof37 or Oof38 or Oof39 or Oof40 or Oof41 or Oof42 or Oof43 or Oof44 or Oof45 or Oof46 or Oof47 or Oof48 or Oof49 or Oof50 or Oof51
+
+pickup = shell
+
+wall = cave_wall or sea or tree or debris
+
+solid = wall or player or cheese_ or cheese or sheep or cyclops or boulder_ or boulder or crate
+
+backpack = backpack1 or backpack2 or backpack3 or backpack4 or backpack5 or backpack6 or backpack7 or backpack8 or backpack9
+purse = purse1 or purse2 or purse3 or purse4 or purse5 or purse6 or purse7 or purse8 or purse9
+
+dialogue = Oof_dialogue or Oof_dialogue2
+speech_bubble = speech_bubble1 or speech_bubble2
+
+ui = backpack or purse or speech_bubble
+
+counter = Counter0 or Counter1 or Counter2 or Counter3 or Counter4 or Counter5 or Counter6 or Counter7 or Counter8 or Counter9 or Counter10 or Victory
+
+=======
+SOUNDS
+=======
+
+sfx0 69328904 (boards snapping)
+sfx1 53390101 (fall)
+
+(
+55148908
+11007508 (awesome sound)
+)
+
+================
+COLLISIONLAYERS
+================
+
+background
+floor
+dialogue
+pickup
+solid
+ui
+counter
+
+======
+RULES
+======
+
+(generate Oof - these rules are to cut down on character use)
+right [Oof1|no cyclops]->[Oof1|Oof2]
+right [Oof1||no cyclops]->[Oof1||Oof3]
+right [Oof1|||no cyclops]->[Oof1|||Oof4]
+right [Oof5|no cyclops]->[Oof5|Oof6]
+right [Oof5||no cyclops]->[Oof5||Oof7]
+right [Oof5|||no cyclops]->[Oof5|||Oof8]
+right [Oof9|no cyclops]->[Oof9|Oof10]
+right [Oof9||no cyclops]->[Oof9||Oof11]
+right [Oof9|||no cyclops]->[Oof9|||Oof12]
+right [Oof13|no cyclops]->[Oof13|Oof14]
+right [Oof13||no cyclops]->[Oof13||Oof15]
+right [Oof13|||no cyclops]->[Oof13|||Oof16]
+right [Oof17|no cyclops]->[Oof17|Oof18]
+right [Oof17||no cyclops]->[Oof17||Oof19]
+right [Oof17|||no cyclops]->[Oof17|||Oof20]
+right [Oof17||||no cyclops]->[Oof17||||Oof21]
+right [Oof17|||||no cyclops]->[Oof17|||||Oof22]
+right [Oof17||||||no cyclops]->[Oof17||||||Oof23]
+right [Oof17|||||||no cyclops]->[Oof17|||||||Oof24]
+right [Oof25|no cyclops]->[Oof25|Oof26]
+right [Oof25||no cyclops]->[Oof25||Oof27]
+right [Oof25|||no cyclops]->[Oof25|||Oof28]
+right [Oof25||||no cyclops]->[Oof25||||Oof29]
+right [Oof25|||||no cyclops]->[Oof25|||||Oof30]
+right [Oof25||||||no cyclops]->[Oof25||||||Oof31]
+right [Oof25|||||||no cyclops]->[Oof25|||||||Oof32]
+right [Oof33|no cyclops]->[Oof33|Oof34]
+right [Oof33||no cyclops]->[Oof33||Oof35]
+right [Oof33|||no cyclops]->[Oof33|||Oof36]
+right [Oof33||||no cyclops]->[Oof33||||Oof37]
+right [Oof33|||||no cyclops]->[Oof33|||||Oof38]
+right [Oof33||||||no cyclops]->[Oof33||||||Oof39]
+right [Oof33|||||||no cyclops]->[Oof33|||||||Oof40]
+right [Oof41|no cyclops]->[Oof41|Oof42]
+right [Oof41||no cyclops]->[Oof41||Oof43]
+right [Oof41|||no cyclops]->[Oof41|||Oof44]
+right [Oof41||||no cyclops]->[Oof41||||Oof45]
+right [Oof41|||||no cyclops]->[Oof41|||||Oof46]
+right [Oof47|no cyclops]->[Oof47|Oof48]
+right [Oof47||no cyclops]->[Oof47||Oof49]
+right [Oof47||||no cyclops]->[Oof47||||Oof50]
+right [Oof47|||||no cyclops]->[Oof47|||||Oof51]
+
+(generate backpack)
+
+up	[backpack5|no backpack]->[backpack5|backpack2]
+down  [backpack5|no backpack]->[backpack5|backpack8]
+left  [backpack5|no backpack]->[backpack5|backpack4]
+right [backpack5|no backpack]->[backpack5|backpack6]
+
+up	[backpack4|no backpack]->[backpack4|backpack1]
+down  [backpack6|no backpack]->[backpack6|backpack9]
+left  [backpack8|no backpack]->[backpack8|backpack7]
+right [backpack2|no backpack]->[backpack2|backpack3]
+
+(generate purse)
+
+up	[purse5|no purse]->[purse5|purse2]
+down  [purse5|no purse]->[purse5|purse8]
+left  [purse5|no purse]->[purse5|purse4]
+right [purse5|no purse]->[purse5|purse6]
+
+up	[purse4|no purse]->[purse4|purse1]
+down  [purse6|no purse]->[purse6|purse9]
+left  [purse8|no purse]->[purse8|purse7]
+right [purse2|no purse]->[purse2|purse3]
+
+(ACTUAL RULES FOR ACTUAL GAMEPLAY PURPOSES)
+
+(>>> Rules for solid counting objects)
+
+    (sheep)
+[player|sheep]->[player|< sheep] (sheep follow the player)
+[> player|sheep]->[player|> sheep] (stop sheep)
+ 
+    (cheese and boulders)
+startloop
+[boulder_u]->[up	boulder_u] again (rolling boulder)
+[boulder_d]->[down  boulder_d] again
+[boulder_l]->[left  boulder_l] again
+[boulder_r]->[right boulder_r] again
+up	[> solid|boulder]->[> solid|> boulder_u] (start rolling boulder)
+down  [> solid|boulder]->[> solid|> boulder_d]
+left  [> solid|boulder]->[> solid|> boulder_l]
+right [> solid|boulder]->[> solid|> boulder_r]
+endloop
+
+startloop
+[cheese_u]->[up	cheese_u] again (rolling cheese)
+[cheese_d]->[down  cheese_d] again
+[cheese_l]->[left  cheese_l] again
+[cheese_r]->[right cheese_r] again
+up	[> solid|cheese]->[> solid|> cheese_u] (start rolling cheese)
+down  [> solid|cheese]->[> solid|> cheese_d]
+left  [> solid|cheese]->[> solid|> cheese_l]
+right [> solid|cheese]->[> solid|> cheese_r]
+endloop
+
+[> boulder_|solid]->[boulder|solid] (boulder comes to a stop)
+[> cheese_|solid]->[cheese|solid] (cheese comes to a stop)
+
+[< player|cheese]->[< player|< cheese] (player can pull cheese)
+
+
+
+(>>> Rules for pickups)
+
+[action player pickup][backpack5 no pickup]->[player][backpack5 pickup] (pick up items)
+[action player no pickup][backpack5 pickup]->[player pickup][backpack5] (drop items)
+
+(>>> World)
+
+    (crates)
+[> player|crate]->[> player|> crate]
+
+    (chasms)
+[> player|no floor]->[player|]
+
+late [solid no floor]->[] sfx1
+
+    (collapsing boards)
+[floortemp]->[]
+late [player boards]->[floortemp] sfx0 sfx1 again
+
+startloop (animation)
+late horizontal [boards_h|no floor]->[floortemp|] sfx0 again
+late vertical [boards_v|no floor]->[floortemp|] sfx0 again
+late [boards_o|no floor]->[floortemp|] sfx0 again
+endloop
+
+(Oof's dialogue)
+
+late [speech_bubble]->[]
+late right [player Oof_dialogue][Oof12||]->[player Oof_dialogue][Oof12|speech_bubble1|speech_bubble2]
+late right [player Oof_dialogue2][Oof12||]->[player Oof_dialogue2][Oof12|speech_bubble1|speech_bubble2]
+
+[action player Oof_dialogue]->[player Oof_dialogue2] message "numbers hard! what there for Oof to count?"
+
+[action player Oof_dialogue2][Counter0]-> [player Oof_dialogue][Counter0] message "Oof know: none, many!"
+[action player Oof_dialogue2][Counter1]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, many!"
+[action player Oof_dialogue2][Counter2]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, many!"
+[action player Oof_dialogue2][Counter3]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, many!"
+[action player Oof_dialogue2][Counter4]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, four, many!"
+[action player Oof_dialogue2][Counter5]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, four, five, many!"
+[action player Oof_dialogue2][Counter6]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, four, five, six, many!"
+[action player Oof_dialogue2][Counter7]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, four, five, six, seven, many!"
+[action player Oof_dialogue2][Counter8]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, four, five, six, seven, eight, many!"
+[action player Oof_dialogue2][Counter9]-> [player Oof_dialogue][Counter0] message "Oof know: none, one, two, three, four, five, six, seven, eight, nine, many!"
+
+(Counting rules)
+
+down [Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0]->[Counter9|||||||||] (determine which level this is based on number of Counter0 in map)
+down [Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0]->[Counter8||||||||]
+down [Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0]->[Counter7|||||||]
+down [Counter0|Counter0|Counter0|Counter0|Counter0|Counter0|Counter0]->[Counter6||||||]
+down [Counter0|Counter0|Counter0|Counter0|Counter0|Counter0]->[Counter5|||||]
+down [Counter0|Counter0|Counter0|Counter0|Counter0]->[Counter4||||]
+down [Counter0|Counter0|Counter0|Counter0]->[Counter3|||]
+down [Counter0|Counter0|Counter0]->[Counter2||]
+down [Counter0|Counter0]->[Counter1|]
+
+right [Counter1][floor1|]->[Counter1][floor1|floor2] (set up the counting zone)
+right [Counter2][floor1||]->[Counter1][floor1|floor2|floor3]
+right [Counter3][floor1|||]->[Counter1][floor1|floor2|floor3|floor4]
+right [Counter4][floor1||||]->[Counter1][floor1|floor2|floor3|floor4|floor5]
+right [Counter5][floor1|||||]->[Counter1][floor1|floor2|floor3|floor4|floor5|floor6]
+right [Counter6][floor1||||||]->[Counter1][floor1|floor2|floor3|floor4|floor5|floor6|floor7]
+right [Counter7][floor1|||||||]->[Counter1][floor1|floor2|floor3|floor4|floor5|floor6|floor7|floor8]
+right [Counter8][floor1||||||||]->[Counter1][floor1|floor2|floor3|floor4|floor5|floor6|floor7|floor8|floor9]
+right [Counter9][floor1|||||||||]->[Counter1][floor1|floor2|floor3|floor4|floor5|floor6|floor7|floor8|floor9|floor10]
+
+down [floor1|]->[floor1|counting_floor] (set up the counting zone)
+down [floor2||]->[floor2|counting_floor|counting_floor]
+down [floor3|||]->[floor3|counting_floor|counting_floor|counting_floor]
+down [floor4||||]->[floor4|counting_floor|counting_floor|counting_floor|counting_floor]
+down [floor5|||||]->[floor5|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor]
+down [floor6||||||]->[floor6|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor]
+down [floor7|||||||]->[floor7|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor]
+down [floor8||||||||]->[floor8|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor]
+down [floor9|||||||||]->[floor9|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor]
+down [floor10||||||||||]->[floor10|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor|counting_floor]
+
+
+(REAL winconditions)
+
+([> player|wall] -> win)
+
+late [Victory]->[]
+
+late down [floor1|cheese counting_floor]->[Victory floor1|cheese counting_floor] (lvl 1)
+
+late down [floor1|cheese counting_floor]->[Victory floor1|cheese counting_floor] (lvl 2)
+late down [floor2|sheep counting_floor|sheep counting_floor]->[Victory floor2|sheep counting_floor|sheep counting_floor]
+
+late down [floor1|cheese counting_floor]->[Victory floor1|cheese counting_floor] (lvl 3)
+late down [floor2|shell counting_floor|shell counting_floor]->[Victory floor2|shell counting_floor|shell counting_floor]
+late down [floor3|sheep counting_floor|sheep counting_floor|sheep counting_floor]->[Victory floor2|sheep counting_floor|sheep counting_floor|sheep counting_floor]
+
+(late down [floor1|mushroom counting_floor]->[Victory floor1|mushroom counting_floor] (lvl 3)
+late down [floor2|shell counting_floor|shell counting_floor]->[Victory floor2|shell counting_floor|shell counting_floor]
+late down [floor3|sheep counting_floor|sheep counting_floor|sheep counting_floor]->[Victory floor2|sheep counting_floor|sheep counting_floor|sheep counting_floor]
+late down [floor4|cheese counting_floor|cheese counting_floor|cheese counting_floor|cheese counting_floor]->[Victory floor2|cheese counting_floor|cheese counting_floor|cheese counting_floor|cheese counting_floor])
+
+==============
+WINCONDITIONS
+==============
+
+all number_floor on Victory
+
+=======
+LEVELS
+=======
+
+message "hello teacher! what Oof learn today?"
+
+#####......#####################################!
+####..1......##########################..#######.
+####..2.......#######....###########..........##.
+###...3.......######.......########..000..00...#.
+###...4.......######.c.....########.0000|000|0.#.
+###.5..........####..#..00..#######.0000...0|0.#.
+##..6..........####.##0|000..######...0.#..0|00#.
+##..7..........###..#00|00000000##..#......0|00#.
+###..8.........###...--+---------....00...00|00#.
+####.9..o....#####...00|000000000#...000|#00|0##.
+#####......########...0|0000000####..000|000|.##.
+##......@...########..0|000000######.000|000|.##.
+#.;..........#####0#..0|00000#######.000.#00|.##.
+%.............###00#..0|00000#####....--..--+*.#.
+%................--...0|00000#.....#..00#000|..#.
+%..............##00##.0|0000...#####..0000.0|0.#.
+#.............###0##..0|0000.########..00..0|0.#.
+#............#######.00|000..#########..0.00|0.#.
+##...........#######.00|000..##0000####.0000|..#.
+##............###.....0|0...000000000##.000#...#.
+###...............##.......-----------........##.
+#####........########...##00000000000#####..####.
+#####.......################00000000############.
+#[#####..#####]##[############]00[############]#.
+################################################.
+
+message "Oof count: one cheese!"
+
+~~~~~~~```````"'^'""'"^"#############......#####################################!
+~~~~~~~````````"'""'^~~~~###########..1......##########################..#######!
+~~~~~~~~~~```"'^~~~~~~~~~###########..2.......#######....###########..........##.
+~~~~~~```~~~~~~~~~~~~~""###########...3.......######.......########..000..00...#.
+~~~~~`````~~~~~~~""""""&###########...4.......######.......########.0000|000|0.#.
+~~~~~```~~~~`"""""""&""""##########.5..........####..#..00..#######.0000...0|0.#.
+~~~~~~~~~`````"&&"""s""""#########..6..........####.##0|000..######...0.#..0|00#.
+~~~~~``````````""""""""""""#######..7..........###..#00|00000000##..#......0|00#.
+~~~~~`````````"""""""""&"""########..8.........###...--+---------....00...00|00#.
+~~~~~~``````````""""""""""""########.9..o....#####...00|000000000#...000|#00|0##.
+~~~~~~`````````""""""""""""""########......########...0|0000000####..000|000|.##.
+~~~~~~~````````""""""""""""""#####......@...########..0|000000######.000|000|.##.
+~~~~~~~``````````"""""""""""""###.;..........#####0#..0|00000#######.000.#00|.##.
+~~~~~~~`````````"""""&"""""""""...c...........###00#..0|00000#####....--.*--+..#.
+~~~~~~~`````````""""""""&""""....................--...0|00000#.....#..00#000|..#.
+~~~~~~~`````````""&""""""""""".................##00##.0|0000...#####..0000.0|0.#.
+~~~~~~```````````""""""""""""""##.............###0##..0|0000.########..00..0|0.#.
+~~~~~~``````````"""""""""s""""###............#######.00|000..#########..0.00|0.#.
+~~~~~`````````````""""""""""""####...........#######.00|000..##0000####.0000|..#.
+~~~~`````````````""""""""""""#####............###.....0|0...000000000##.000#...#.
+~~~~``````````````""""&""""""######...............##.......-----------........##.
+~~~~``````````````""""""""""#########........########...##00000000000#####..####.
+~~~~```````````````"""""""""#########.......################00000000############.
+~~~~~`````````````""""""""""#####[#####..#####]##[############]00[############]#.
+~~~~~```````````````"""""""#####################################################.
+
+(message "Oof have many coin; give you one."
+
+~~~~~~~```````"'^'""'"^"#############......#####################################!
+~~~~~~~````````"'""'^~~~~###########..1......##########################..#######!
+~~~~~~~~~~```"'^~~~~~~~~~###########..2.......#######....###########..........##.
+~~~~~~```~~~~~~~~~~~~~""###########...3.......######.......########..000..00...#.
+~~~~~`````~~~~~~~""""""&###########...4.......######.......########.0000|000|0.#.
+~~~~~```~~~~`"""""""&""""##########.5..........####..#..00..#######.0000...0|0.#.
+~~~~~~~~~`````"&&"""s""""#########..6..........####.##0|000..######...0.#..0|00#.
+~~~~~``````````""""""""""""#######..7..........###..#00|00000000##..#......0|00#.
+~~~~~`````````"""""""""&"""########..8.........###...--+---------....00...00|00#.
+~~~~~~``````````""""""""""""########.9..o....#####...00|000000000#...000|#00|0##.
+~~~~~~`````````""""""""""""""########......########...0|0000000####..000|000|.##.
+~~~~~~~````````""""""""""""""#####......@...########..0|000000######.000|000|.##.
+~~~~~~~``````````"""""""""""""###.;..........#####0#..0|00000#######.000.#00|.##.
+~~~~~~~`````````"""""&"""""""""...c...........###00#..0|00000#####....--.*--+..#.
+~~~~~~~`````````""""""""&""""....................--...0|00000#.....#..00#000|..#.
+~~~~~~~`````````""&""""""""""".................##00##.0|0000...#####..0000.0|0.#.
+~~~~~~```````````""""""""""""""##.............###0##..0|0000.########..00..0|0.#.
+~~~~~~``````````"""""""""s""""###............#######.00|000..#########..0.00|0.#.
+~~~~~`````````````""""""""""""####...........#######.00|000..##0000####.0000|..#.
+~~~~`````````````""""""""""""#####............###.....0|0...000000000##.000#...#.
+~~~~``````````````""""&""""""######...............##.......-----------........##.
+~~~~``````````````""""""""""#########........########...##00000000000#####..####.
+~~~~```````````````"""""""""#########.......################00000000############.
+~~~~~`````````````""""""""""#####[#####..#####]##[############]00[############]#.
+~~~~~```````````````"""""""#####################################################.
+~~~~~``````""""""""""""""""#####################################.
+~~~~~`````"""""'"""""""""""################...##################.
+~~~~`````"""""""""""""""""################.....#################.
+~~~```````"""""'""""""""""################!...!#################.
+~~~````````"""""""""""""""################!!|!!#################.
+~~~`````"""""""'""""""""""'###############!!|!!#################.
+~~~~`````""""""""""""""""'^'#########^^^^^!!|!!^^^##############.
+~~~~`````""""""'"""""""""""''^^####^^^'^'^^!|!!^'^'#############.
+~~~~~`````""""""""""""""""""^'^^^^^^''^'^'^!|!''''^'############.
+~~~~~~`````""""'""""""""""""''^'^^^^'^^''^'!|!'^'''^^###########.
+~~~~~~```""""""""""""""""""'^^^^^^'^^''^^'!!|!''''''^^'#########.
+~~~~~~````"""""'"""""""""'^''^'^^^^^'^''^^!!|!!'''''''''########.
+~~~~~~```"""""""""""""""""'"''^^^^^''''''^!!|!!'''''''''''''####.
+~~~~~~````"""""'"""""""""""""'^^^^''''''''--+--''''''''''''''###.
+~~~~~`````"""""""""""""""""""''^^^'''''''^!!|!!^''''''''''''''##.
+~~~~~```````"""'""""s"""""""'''^^^''''^''^'!|!!^''''''''''''''''.
+~~~~~``````""`"""""""""""""'"''^^^'''^''''^!|!^'''''''''''''''''.
+~~~~~````````""'"""""""""^'''''^^^'''''''''!|!'^''''''''''''''''.
+~~~~~~`````````""`""""""""'''''^^^^'''''^^'!|!'^''^'''''''''''''.
+~~~~~~~```````````""`""""""&''^^^^^'^^'^^'''|!''^^''''''''''''''.
+~~~~~~~~~~~```````````"`""`"'^'^^^'^''^'''''|!'''^'''''^'''''''^.
+~~~~~~~~~~~~~`````````````~~~~^^^^^^^'''''''|''''''''''''^'''^''.
+~~~~~~~~~~~~~~~``````~~~~~~~~~~~'^''^^^'''''|'''^'^'^'^^^^^'^^'^.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''^''^'''''~~~~~''`^'^^'^^^^^.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'''''~~~~~~~~~```^^^^^^^.
+~[~~~~~~~~~~~~[~~[~~~~~~~~~~~~[~~[~~~~~~~~~~~~[~~[~~~~~~```^^^[^.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``^^^^.
+
+)
+
+message "Oof count: one cheese, two sheep!"
+(message "Oof have many coin; give you one, two.")
+
+message "thank for teach Oof numbers! tomorrow want learn pronouns!"
+
+
+
